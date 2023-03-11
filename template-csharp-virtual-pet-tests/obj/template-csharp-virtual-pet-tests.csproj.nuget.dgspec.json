@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet-tests/template-csharp-virtual-pet-tests.csproj": {}
+  },
+  "projects": {
+    "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet-tests/template-csharp-virtual-pet-tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet-tests/template-csharp-virtual-pet-tests.csproj",
+        "projectName": "template-csharp-virtual-pet-tests",
+        "projectPath": "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet-tests/template-csharp-virtual-pet-tests.csproj",
+        "packagesPath": "/Users/rawlsten/.nuget/packages/",
+        "outputPath": "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet-tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rawlsten/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet.csproj": {
+                "projectPath": "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet.csproj",
+        "projectName": "template-csharp-virtual-pet",
+        "projectPath": "/Users/rawlsten/REPOS/virtualpet-mas-code/template-csharp-virtual-pet.csproj",
+        "packagesPath": "/Users/rawlsten/.nuget/packages/",
+        "outputPath": "/Users/rawlsten/REPOS/virtualpet-mas-code/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rawlsten/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Windows.Extensions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
